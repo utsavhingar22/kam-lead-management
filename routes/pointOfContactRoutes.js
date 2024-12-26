@@ -1,6 +1,6 @@
 const express = require('express');
 const { getPOCsForLead } = require('../controllers/pointOfContactController');
-const authenticate = require('../middlewares/authMiddleware'); // Optional middleware for authentication
+const authenticate = require('../middlewares/authMiddleware');
 
 const router = express.Router();
 

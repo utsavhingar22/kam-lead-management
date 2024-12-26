@@ -1,7 +1,7 @@
 const express = require('express');
 const { addLead, getLeads, getTodayCalls } = require('../controllers/leadController');
 const pointOfContactController = require('../controllers/pointOfContactController');
-const { addPOCForLead, getPOCsForLead } = require('../controllers/pointOfContactController');
+const { addPOCForLead } = require('../controllers/pointOfContactController');
 const callPlanController = require('../controllers/callPlanController');
 const authenticate = require('../middlewares/authMiddleware');
 
